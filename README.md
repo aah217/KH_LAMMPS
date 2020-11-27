@@ -1,2 +1,6 @@
-# KH-HPS_Lammps
-This project is an example of implementing continuous piecewise Lennard-Jones-like potentials in Lammps, such as Kim &amp; Hummer and the Hydrophobicity Scale Model. Instead of writing a custom pair_style, only standard pair_styles are used.
+# Kim & Hummer Model A (KH A)[1] & Hydrophobicity Scale Model (HPS)[2] LAMMPS Implementation
+This project is an example of implementing continuous piecewise Lennard-Jones-like potentials in Lammps, such as KH A and HPS. 
+Instead of writing a custom pair_style, only standard pair_styles are used. 
+The primary downside of this method is that redundant pair_styles are required which lead to unnecessary inefficiency. 
+However, this method can be used quickly and easily on most versions of LAMMPS without the need for being recompiled.
+That stated, the authors have only tested this method on a limited number of LAMMPS versions and can't guarantee it will work with every version.
