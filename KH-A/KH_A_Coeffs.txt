@@ -1,0 +1,420 @@
+pair_coeff 1 1 lj/cut/coul/debye 0.042429 5.04 15.12 0.0
+pair_coeff 1 2 lj/cut/coul/debye 0.122573 5.26 15.78 0.0
+pair_coeff 1 3 lj/cut/coul/debye 0.053744 5.31 5.960273 0.0
+pair_coeff 1 3 lj/cut 1 0.053744 5.31 5.960273
+pair_coeff 1 3 table KH_A_Table.txt TABLE_1_3
+pair_coeff 1 3 lj/cut 2 -0.053744 5.31 15.93
+pair_coeff 1 4 lj/cut/coul/debye 0.071658 5.48 6.151092 0.0
+pair_coeff 1 4 lj/cut 1 0.071658 5.48 6.151092
+pair_coeff 1 4 table KH_A_Table.txt TABLE_1_4
+pair_coeff 1 4 lj/cut 2 -0.071658 5.48 16.44
+pair_coeff 1 5 lj/cut/coul/debye 0.239489 5.7 17.1 0.0
+pair_coeff 1 6 lj/cut/coul/debye 0.003771 4.77 14.31 0.0
+pair_coeff 1 7 lj/cut/coul/debye 0.0132 5.56 16.68 0.0
+pair_coeff 1 8 lj/cut/coul/debye 0.217803 5.61 16.83 0.0
+pair_coeff 1 9 lj/cut/coul/debye 0.090516 5.7 6.398034 0.0
+pair_coeff 1 9 lj/cut 1 0.090516 5.7 6.398034
+pair_coeff 1 9 table KH_A_Table.txt TABLE_1_9
+pair_coeff 1 9 lj/cut 2 -0.090516 5.7 17.1
+pair_coeff 1 10 lj/cut/coul/debye 0.248918 5.61 16.83 0.0
+pair_coeff 1 11 lj/cut/coul/debye 0.157459 5.61 16.83 0.0
+pair_coeff 1 12 lj/cut/coul/debye 0.040543 5.36 6.016397 0.0
+pair_coeff 1 12 lj/cut 1 0.040543 5.36 6.016397
+pair_coeff 1 12 table KH_A_Table.txt TABLE_1_12
+pair_coeff 1 12 lj/cut 2 -0.040543 5.36 16.08
+pair_coeff 1 13 lj/cut/coul/debye 0.022629 5.3 5.949049 0.0
+pair_coeff 1 13 lj/cut 1 0.022629 5.3 5.949049
+pair_coeff 1 13 table KH_A_Table.txt TABLE_1_13
+pair_coeff 1 13 lj/cut 2 -0.022629 5.3 15.9
+pair_coeff 1 14 lj/cut/coul/debye 0.035829 5.53 6.207215 0.0
+pair_coeff 1 14 lj/cut 1 0.035829 5.53 6.207215
+pair_coeff 1 14 table KH_A_Table.txt TABLE_1_14
+pair_coeff 1 14 lj/cut 2 -0.035829 5.53 16.59
+pair_coeff 1 15 lj/cut/coul/debye 0.041486 5.8 6.51028 0.0
+pair_coeff 1 15 lj/cut 1 0.041486 5.8 6.51028
+pair_coeff 1 15 table KH_A_Table.txt TABLE_1_15
+pair_coeff 1 15 lj/cut 2 -0.041486 5.8 17.4
+pair_coeff 1 16 lj/cut/coul/debye 0.024515 5.11 5.735781 0.0
+pair_coeff 1 16 lj/cut 1 0.024515 5.11 5.735781
+pair_coeff 1 16 table KH_A_Table.txt TABLE_1_16
+pair_coeff 1 16 lj/cut 2 -0.024515 5.11 15.33
+pair_coeff 1 17 lj/cut/coul/debye 0.004714 5.33 15.99 0.0
+pair_coeff 1 18 lj/cut/coul/debye 0.166888 5.45 16.35 0.0
+pair_coeff 1 19 lj/cut/coul/debye 0.146145 5.91 17.73 0.0
+pair_coeff 1 20 lj/cut/coul/debye 0.102773 5.75 17.25 0.0
+pair_coeff 2 2 lj/cut/coul/debye 0.29889 5.48 16.44 0.0
+pair_coeff 2 3 lj/cut/coul/debye 0.0132 5.53 16.59 0.0
+pair_coeff 2 4 lj/cut/coul/debye 0.0 5.7 17.1 0.0
+pair_coeff 2 5 lj/cut/coul/debye 0.332833 5.92 17.76 0.0
+pair_coeff 2 6 lj/cut/coul/debye 0.083915 4.99 14.97 0.0
+pair_coeff 2 7 lj/cut/coul/debye 0.125402 5.78 17.34 0.0
+pair_coeff 2 8 lj/cut/coul/debye 0.304547 5.83 17.49 0.0
+pair_coeff 2 9 lj/cut/coul/debye 0.030172 5.92 6.644975 0.0
+pair_coeff 2 9 lj/cut 1 0.030172 5.92 6.644975
+pair_coeff 2 9 table KH_A_Table.txt TABLE_2_9
+pair_coeff 2 9 lj/cut 2 -0.030172 5.92 17.76
+pair_coeff 2 10 lj/cut/coul/debye 0.335662 5.83 17.49 0.0
+pair_coeff 2 11 lj/cut/coul/debye 0.256461 5.83 17.49 0.0
+pair_coeff 2 12 lj/cut/coul/debye 0.030172 5.58 16.74 0.0
+pair_coeff 2 13 lj/cut/coul/debye 0.07543 5.52 16.56 0.0
+pair_coeff 2 14 lj/cut/coul/debye 0.054686 5.75 17.25 0.0
+pair_coeff 2 15 lj/cut/coul/debye 0.028286 6.02 18.06 0.0
+pair_coeff 2 16 lj/cut/coul/debye 0.055629 5.33 15.99 0.0
+pair_coeff 2 17 lj/cut/coul/debye 0.079201 5.55 16.65 0.0
+pair_coeff 2 18 lj/cut/coul/debye 0.253632 5.67 17.01 0.0
+pair_coeff 2 19 lj/cut/coul/debye 0.252689 6.13 18.39 0.0
+pair_coeff 2 20 lj/cut/coul/debye 0.178202 5.97 17.91 0.0
+pair_coeff 3 3 lj/cut/coul/debye 0.099944 5.58 6.263338 35.0
+pair_coeff 3 3 lj/cut 1 0.099944 5.58 6.263338
+pair_coeff 3 3 table KH_A_Table.txt TABLE_3_3
+pair_coeff 3 3 lj/cut 2 -0.099944 5.58 16.74
+pair_coeff 3 4 lj/cut/coul/debye 0.117859 5.75 6.454157 35.0
+pair_coeff 3 4 lj/cut 1 0.117859 5.75 6.454157
+pair_coeff 3 4 table KH_A_Table.txt TABLE_3_4
+pair_coeff 3 4 lj/cut 2 -0.117859 5.75 17.25
+pair_coeff 3 5 lj/cut/coul/debye 0.114087 5.97 17.91 35.0
+pair_coeff 3 6 lj/cut/coul/debye 0.064115 5.04 5.657209 35.0
+pair_coeff 3 6 lj/cut 1 0.064115 5.04 5.657209
+pair_coeff 3 6 table KH_A_Table.txt TABLE_3_6
+pair_coeff 3 6 lj/cut 2 -0.064115 5.04 15.12
+pair_coeff 3 7 lj/cut/coul/debye 0.004714 5.83 17.49 35.0
+pair_coeff 3 8 lj/cut/coul/debye 0.084858 5.88 17.64 35.0
+pair_coeff 3 9 lj/cut/coul/debye 0.055629 5.97 6.701098 35.0
+pair_coeff 3 9 lj/cut 1 0.055629 5.97 6.701098
+pair_coeff 3 9 table KH_A_Table.txt TABLE_3_9
+pair_coeff 3 9 lj/cut 2 -0.055629 5.97 17.91
+pair_coeff 3 10 lj/cut/coul/debye 0.106544 5.88 17.64 35.0
+pair_coeff 3 11 lj/cut/coul/debye 0.028286 5.88 17.64 35.0
+pair_coeff 3 12 lj/cut/coul/debye 0.055629 5.63 6.319461 35.0
+pair_coeff 3 12 lj/cut 1 0.055629 5.63 6.319461
+pair_coeff 3 12 table KH_A_Table.txt TABLE_3_12
+pair_coeff 3 12 lj/cut 2 -0.055629 5.63 16.89
+pair_coeff 3 13 lj/cut/coul/debye 0.08863 5.57 6.252114 35.0
+pair_coeff 3 13 lj/cut 1 0.08863 5.57 6.252114
+pair_coeff 3 13 table KH_A_Table.txt TABLE_3_13
+pair_coeff 3 13 lj/cut 2 -0.08863 5.57 16.71
+pair_coeff 3 14 lj/cut/coul/debye 0.076372 5.8 6.51028 35.0
+pair_coeff 3 14 lj/cut 1 0.076372 5.8 6.51028
+pair_coeff 3 14 table KH_A_Table.txt TABLE_3_14
+pair_coeff 3 14 lj/cut 2 -0.076372 5.8 17.4
+pair_coeff 3 15 lj/cut/coul/debye 0.001886 6.07 18.21 35.0
+pair_coeff 3 16 lj/cut/coul/debye 0.060344 5.38 6.038846 35.0
+pair_coeff 3 16 lj/cut 1 0.060344 5.38 6.038846
+pair_coeff 3 16 table KH_A_Table.txt TABLE_3_16
+pair_coeff 3 16 lj/cut 2 -0.060344 5.38 16.14
+pair_coeff 3 17 lj/cut/coul/debye 0.044315 5.6 6.285787 35.0
+pair_coeff 3 17 lj/cut 1 0.044315 5.6 6.285787
+pair_coeff 3 17 table KH_A_Table.txt TABLE_3_17
+pair_coeff 3 17 lj/cut 2 -0.044315 5.6 16.8
+pair_coeff 3 18 lj/cut/coul/debye 0.0198 5.72 17.16 35.0
+pair_coeff 3 19 lj/cut/coul/debye 0.053744 6.18 18.54 35.0
+pair_coeff 3 20 lj/cut/coul/debye 0.046201 6.02 18.06 35.0
+pair_coeff 4 4 lj/cut/coul/debye 0.12823 5.92 6.644975 35.0
+pair_coeff 4 4 lj/cut 1 0.12823 5.92 6.644975
+pair_coeff 4 4 table KH_A_Table.txt TABLE_4_4
+pair_coeff 4 4 lj/cut 2 -0.12823 5.92 17.76
+pair_coeff 4 5 lj/cut/coul/debye 0.12163 6.14 18.42 35.0
+pair_coeff 4 6 lj/cut/coul/debye 0.099001 5.21 5.848027 35.0
+pair_coeff 4 6 lj/cut 1 0.099001 5.21 5.848027
+pair_coeff 4 6 table KH_A_Table.txt TABLE_4_6
+pair_coeff 4 6 lj/cut 2 -0.099001 5.21 15.63
+pair_coeff 4 7 lj/cut/coul/debye 0.011314 6.0 6.734772 35.0
+pair_coeff 4 7 lj/cut 1 0.011314 6.0 6.734772
+pair_coeff 4 7 table KH_A_Table.txt TABLE_4_7
+pair_coeff 4 7 lj/cut 2 -0.011314 6.0 18.0
+pair_coeff 4 8 lj/cut/coul/debye 0.094287 6.05 18.15 35.0
+pair_coeff 4 9 lj/cut/coul/debye 0.044315 6.14 6.891917 35.0
+pair_coeff 4 9 lj/cut 1 0.044315 6.14 6.891917
+pair_coeff 4 9 table KH_A_Table.txt TABLE_4_9
+pair_coeff 4 9 lj/cut 2 -0.044315 6.14 18.42
+pair_coeff 4 10 lj/cut/coul/debye 0.124459 6.05 18.15 35.0
+pair_coeff 4 11 lj/cut/coul/debye 0.058458 6.05 18.15 35.0
+pair_coeff 4 12 lj/cut/coul/debye 0.071658 5.8 6.51028 35.0
+pair_coeff 4 12 lj/cut 1 0.071658 5.8 6.51028
+pair_coeff 4 12 table KH_A_Table.txt TABLE_4_12
+pair_coeff 4 12 lj/cut 2 -0.071658 5.8 17.4
+pair_coeff 4 13 lj/cut/coul/debye 0.09523 5.74 6.442932 35.0
+pair_coeff 4 13 lj/cut 1 0.09523 5.74 6.442932
+pair_coeff 4 13 table KH_A_Table.txt TABLE_4_13
+pair_coeff 4 13 lj/cut 2 -0.09523 5.74 17.22
+pair_coeff 4 14 lj/cut/coul/debye 0.080144 5.97 6.701098 35.0
+pair_coeff 4 14 lj/cut 1 0.080144 5.97 6.701098
+pair_coeff 4 14 table KH_A_Table.txt TABLE_4_14
+pair_coeff 4 14 lj/cut 2 -0.080144 5.97 17.91
+pair_coeff 4 15 lj/cut/coul/debye 0.0 6.24 18.72 35.0
+pair_coeff 4 16 lj/cut/coul/debye 0.074487 5.55 6.229664 35.0
+pair_coeff 4 16 lj/cut 1 0.074487 5.55 6.229664
+pair_coeff 4 16 table KH_A_Table.txt TABLE_4_16
+pair_coeff 4 16 lj/cut 2 -0.074487 5.55 16.65
+pair_coeff 4 17 lj/cut/coul/debye 0.049972 5.77 6.476606 35.0
+pair_coeff 4 17 lj/cut 1 0.049972 5.77 6.476606
+pair_coeff 4 17 table KH_A_Table.txt TABLE_4_17
+pair_coeff 4 17 lj/cut 2 -0.049972 5.77 17.31
+pair_coeff 4 18 lj/cut/coul/debye 0.037715 5.89 17.67 35.0
+pair_coeff 4 19 lj/cut/coul/debye 0.067887 6.35 19.05 35.0
+pair_coeff 4 20 lj/cut/coul/debye 0.049029 6.19 18.57 35.0
+pair_coeff 5 5 lj/cut/coul/debye 0.470492 6.36 19.08 0.0
+pair_coeff 5 6 lj/cut/coul/debye 0.175374 5.43 16.29 0.0
+pair_coeff 5 7 lj/cut/coul/debye 0.235717 6.22 18.66 0.0
+pair_coeff 5 8 lj/cut/coul/debye 0.430892 6.27 18.81 0.0
+pair_coeff 5 9 lj/cut/coul/debye 0.102773 6.36 19.08 0.0
+pair_coeff 5 10 lj/cut/coul/debye 0.472378 6.27 18.81 0.0
+pair_coeff 5 11 lj/cut/coul/debye 0.404491 6.27 18.81 0.0
+pair_coeff 5 12 lj/cut/coul/debye 0.139545 6.02 18.06 0.0
+pair_coeff 5 13 lj/cut/coul/debye 0.186688 5.96 17.88 0.0
+pair_coeff 5 14 lj/cut/coul/debye 0.172545 6.19 18.57 0.0
+pair_coeff 5 15 lj/cut/coul/debye 0.161231 6.46 19.38 0.0
+pair_coeff 5 16 lj/cut/coul/debye 0.165002 5.77 17.31 0.0
+pair_coeff 5 17 lj/cut/coul/debye 0.189517 5.99 17.97 0.0
+pair_coeff 5 18 lj/cut/coul/debye 0.379034 6.11 18.33 0.0
+pair_coeff 5 19 lj/cut/coul/debye 0.366776 6.57 19.71 0.0
+pair_coeff 5 20 lj/cut/coul/debye 0.319633 6.41 19.23 0.0
+pair_coeff 6 6 lj/cut/coul/debye 0.002829 4.5 5.051079 0.0
+pair_coeff 6 6 lj/cut 1 0.002829 4.5 5.051079
+pair_coeff 6 6 table KH_A_Table.txt TABLE_6_6
+pair_coeff 6 6 lj/cut 2 -0.002829 4.5 13.5
+pair_coeff 6 7 lj/cut/coul/debye 0.011314 5.29 5.937824 0.0
+pair_coeff 6 7 lj/cut 1 0.011314 5.29 5.937824
+pair_coeff 6 7 table KH_A_Table.txt TABLE_6_7
+pair_coeff 6 7 lj/cut 2 -0.011314 5.29 15.87
+pair_coeff 6 8 lj/cut/coul/debye 0.142373 5.34 16.02 0.0
+pair_coeff 6 9 lj/cut/coul/debye 0.105601 5.43 6.094969 0.0
+pair_coeff 6 9 lj/cut 1 0.105601 5.43 6.094969
+pair_coeff 6 9 table KH_A_Table.txt TABLE_6_9
+pair_coeff 6 9 lj/cut 2 -0.105601 5.43 16.29
+pair_coeff 6 10 lj/cut/coul/debye 0.178202 5.34 16.02 0.0
+pair_coeff 6 11 lj/cut/coul/debye 0.105601 5.34 16.02 0.0
+pair_coeff 6 12 lj/cut/coul/debye 0.049972 5.09 5.713332 0.0
+pair_coeff 6 12 lj/cut 1 0.049972 5.09 5.713332
+pair_coeff 6 12 table KH_A_Table.txt TABLE_6_12
+pair_coeff 6 12 lj/cut 2 -0.049972 5.09 15.27
+pair_coeff 6 13 lj/cut/coul/debye 0.037715 5.03 5.645984 0.0
+pair_coeff 6 13 lj/cut 1 0.037715 5.03 5.645984
+pair_coeff 6 13 table KH_A_Table.txt TABLE_6_13
+pair_coeff 6 13 lj/cut 2 -0.037715 5.03 15.09
+pair_coeff 6 14 lj/cut/coul/debye 0.057515 5.26 5.90415 0.0
+pair_coeff 6 14 lj/cut 1 0.057515 5.26 5.90415
+pair_coeff 6 14 table KH_A_Table.txt TABLE_6_14
+pair_coeff 6 14 lj/cut 2 -0.057515 5.26 15.78
+pair_coeff 6 15 lj/cut/coul/debye 0.051858 5.53 6.207215 0.0
+pair_coeff 6 15 lj/cut 1 0.051858 5.53 6.207215
+pair_coeff 6 15 table KH_A_Table.txt TABLE_6_15
+pair_coeff 6 15 lj/cut 2 -0.051858 5.53 16.59
+pair_coeff 6 16 lj/cut/coul/debye 0.042429 4.84 5.432716 0.0
+pair_coeff 6 16 lj/cut 1 0.042429 4.84 5.432716
+pair_coeff 6 16 table KH_A_Table.txt TABLE_6_16
+pair_coeff 6 16 lj/cut 2 -0.042429 4.84 14.52
+pair_coeff 6 17 lj/cut/coul/debye 0.017915 5.06 5.679658 0.0
+pair_coeff 6 17 lj/cut 1 0.017915 5.06 5.679658
+pair_coeff 6 17 table KH_A_Table.txt TABLE_6_17
+pair_coeff 6 17 lj/cut 2 -0.017915 5.06 15.18
+pair_coeff 6 18 lj/cut/coul/debye 0.104659 5.18 15.54 0.0
+pair_coeff 6 19 lj/cut/coul/debye 0.10843 5.64 16.92 0.0
+pair_coeff 6 20 lj/cut/coul/debye 0.069772 5.48 16.44 0.0
+pair_coeff 7 7 lj/cut/coul/debye 0.073544 6.08 18.24 35.0
+pair_coeff 7 8 lj/cut/coul/debye 0.176317 6.13 18.39 35.0
+pair_coeff 7 9 lj/cut/coul/debye 0.086744 6.22 6.981714 35.0
+pair_coeff 7 9 lj/cut 1 0.086744 6.22 6.981714
+pair_coeff 7 9 table KH_A_Table.txt TABLE_7_9
+pair_coeff 7 9 lj/cut 2 -0.086744 6.22 18.66
+pair_coeff 7 10 lj/cut/coul/debye 0.214031 6.13 18.39 35.0
+pair_coeff 7 11 lj/cut/coul/debye 0.161231 6.13 18.39 35.0
+pair_coeff 7 12 lj/cut/coul/debye 0.017915 5.88 6.600077 35.0
+pair_coeff 7 12 lj/cut 1 0.017915 5.88 6.600077
+pair_coeff 7 12 table KH_A_Table.txt TABLE_7_12
+pair_coeff 7 12 lj/cut 2 -0.017915 5.88 17.64
+pair_coeff 7 13 lj/cut/coul/debye 0.001886 5.82 6.532729 35.0
+pair_coeff 7 13 lj/cut 1 0.001886 5.82 6.532729
+pair_coeff 7 13 table KH_A_Table.txt TABLE_7_13
+pair_coeff 7 13 lj/cut 2 -0.001886 5.82 17.46
+pair_coeff 7 14 lj/cut/coul/debye 0.027343 6.05 6.790895 35.0
+pair_coeff 7 14 lj/cut 1 0.027343 6.05 6.790895
+pair_coeff 7 14 table KH_A_Table.txt TABLE_7_14
+pair_coeff 7 14 lj/cut 2 -0.027343 6.05 18.15
+pair_coeff 7 15 lj/cut/coul/debye 0.010372 6.32 7.09396 35.0
+pair_coeff 7 15 lj/cut 1 0.010372 6.32 7.09396
+pair_coeff 7 15 table KH_A_Table.txt TABLE_7_15
+pair_coeff 7 15 lj/cut 2 -0.010372 6.32 18.96
+pair_coeff 7 16 lj/cut/coul/debye 0.015086 5.63 6.319461 35.0
+pair_coeff 7 16 lj/cut 1 0.015086 5.63 6.319461
+pair_coeff 7 16 table KH_A_Table.txt TABLE_7_16
+pair_coeff 7 16 lj/cut 2 -0.015086 5.63 16.89
+pair_coeff 7 17 lj/cut/coul/debye 0.014143 5.85 17.55 35.0
+pair_coeff 7 18 lj/cut/coul/debye 0.123516 5.97 17.91 35.0
+pair_coeff 7 19 lj/cut/coul/debye 0.161231 6.43 19.29 35.0
+pair_coeff 7 20 lj/cut/coul/debye 0.117859 6.27 18.81 35.0
+pair_coeff 8 8 lj/cut/coul/debye 0.402605 6.18 18.54 0.0
+pair_coeff 8 9 lj/cut/coul/debye 0.069772 6.27 18.81 0.0
+pair_coeff 8 10 lj/cut/coul/debye 0.449749 6.18 18.54 0.0
+pair_coeff 8 11 lj/cut/coul/debye 0.353576 6.18 18.54 0.0
+pair_coeff 8 12 lj/cut/coul/debye 0.091458 5.93 17.79 0.0
+pair_coeff 8 13 lj/cut/coul/debye 0.140488 5.87 17.61 0.0
+pair_coeff 8 14 lj/cut/coul/debye 0.132002 6.1 18.3 0.0
+pair_coeff 8 15 lj/cut/coul/debye 0.12823 6.37 19.11 0.0
+pair_coeff 8 16 lj/cut/coul/debye 0.117859 5.68 17.04 0.0
+pair_coeff 8 17 lj/cut/coul/debye 0.165945 5.9 17.7 0.0
+pair_coeff 8 18 lj/cut/coul/debye 0.356405 6.02 18.06 0.0
+pair_coeff 8 19 lj/cut/coul/debye 0.330947 6.48 19.44 0.0
+pair_coeff 8 20 lj/cut/coul/debye 0.280975 6.32 18.96 0.0
+pair_coeff 9 9 lj/cut/coul/debye 0.202717 6.36 7.138859 35.0
+pair_coeff 9 9 lj/cut 1 0.202717 6.36 7.138859
+pair_coeff 9 9 table KH_A_Table.txt TABLE_9_9
+pair_coeff 9 9 lj/cut 2 -0.202717 6.36 19.08
+pair_coeff 9 10 lj/cut/coul/debye 0.103716 6.27 18.81 35.0
+pair_coeff 9 11 lj/cut/coul/debye 0.0198 6.27 18.81 35.0
+pair_coeff 9 12 lj/cut/coul/debye 0.099944 6.02 6.757222 35.0
+pair_coeff 9 12 lj/cut 1 0.099944 6.02 6.757222
+pair_coeff 9 12 table KH_A_Table.txt TABLE_9_12
+pair_coeff 9 12 lj/cut 2 -0.099944 6.02 18.06
+pair_coeff 9 13 lj/cut/coul/debye 0.122573 5.96 6.689874 35.0
+pair_coeff 9 13 lj/cut 1 0.122573 5.96 6.689874
+pair_coeff 9 13 table KH_A_Table.txt TABLE_9_13
+pair_coeff 9 13 lj/cut 2 -0.122573 5.96 17.88
+pair_coeff 9 14 lj/cut/coul/debye 0.092401 6.19 6.94804 35.0
+pair_coeff 9 14 lj/cut 1 0.092401 6.19 6.94804
+pair_coeff 9 14 table KH_A_Table.txt TABLE_9_14
+pair_coeff 9 14 lj/cut 2 -0.092401 6.19 18.57
+pair_coeff 9 15 lj/cut/coul/debye 0.158402 6.46 7.251105 35.0
+pair_coeff 9 15 lj/cut 1 0.158402 6.46 7.251105
+pair_coeff 9 15 table KH_A_Table.txt TABLE_9_15
+pair_coeff 9 15 lj/cut 2 -0.158402 6.46 19.38
+pair_coeff 9 16 lj/cut/coul/debye 0.11503 5.77 6.476606 35.0
+pair_coeff 9 16 lj/cut 1 0.11503 5.77 6.476606
+pair_coeff 9 16 table KH_A_Table.txt TABLE_9_16
+pair_coeff 9 16 lj/cut 2 -0.11503 5.77 17.31
+pair_coeff 9 17 lj/cut/coul/debye 0.090516 5.99 6.723548 35.0
+pair_coeff 9 17 lj/cut 1 0.090516 5.99 6.723548
+pair_coeff 9 17 table KH_A_Table.txt TABLE_9_17
+pair_coeff 9 17 lj/cut 2 -0.090516 5.99 17.97
+pair_coeff 9 18 lj/cut/coul/debye 0.020743 6.11 18.33 35.0
+pair_coeff 9 19 lj/cut/coul/debye 0.039601 6.57 19.71 35.0
+pair_coeff 9 20 lj/cut/coul/debye 0.031115 6.41 19.23 35.0
+pair_coeff 10 10 lj/cut/coul/debye 0.480864 6.18 18.54 0.0
+pair_coeff 10 11 lj/cut/coul/debye 0.390348 6.18 18.54 0.0
+pair_coeff 10 12 lj/cut/coul/debye 0.138602 5.93 17.79 0.0
+pair_coeff 10 13 lj/cut/coul/debye 0.181974 5.87 17.61 0.0
+pair_coeff 10 14 lj/cut/coul/debye 0.166888 6.1 18.3 0.0
+pair_coeff 10 15 lj/cut/coul/debye 0.165945 6.37 19.11 0.0
+pair_coeff 10 16 lj/cut/coul/debye 0.155574 5.68 17.04 0.0
+pair_coeff 10 17 lj/cut/coul/debye 0.195174 5.9 17.7 0.0
+pair_coeff 10 18 lj/cut/coul/debye 0.396948 6.02 18.06 0.0
+pair_coeff 10 19 lj/cut/coul/debye 0.364891 6.48 19.44 0.0
+pair_coeff 10 20 lj/cut/coul/debye 0.320576 6.32 18.96 0.0
+pair_coeff 11 11 lj/cut/coul/debye 0.300776 6.18 18.54 0.0
+pair_coeff 11 12 lj/cut/coul/debye 0.064115 5.93 17.79 0.0
+pair_coeff 11 13 lj/cut/coul/debye 0.111259 5.87 17.61 0.0
+pair_coeff 11 14 lj/cut/coul/debye 0.097116 6.1 18.3 0.0
+pair_coeff 11 15 lj/cut/coul/debye 0.080144 6.37 19.11 0.0
+pair_coeff 11 16 lj/cut/coul/debye 0.071658 5.68 17.04 0.0
+pair_coeff 11 17 lj/cut/coul/debye 0.116916 5.9 17.7 0.0
+pair_coeff 11 18 lj/cut/coul/debye 0.287575 6.02 18.06 0.0
+pair_coeff 11 19 lj/cut/coul/debye 0.309261 6.48 19.44 0.0
+pair_coeff 11 20 lj/cut/coul/debye 0.248918 6.32 18.96 0.0
+pair_coeff 12 12 lj/cut/coul/debye 0.055629 5.68 6.375584 0.0
+pair_coeff 12 12 lj/cut 1 0.055629 5.68 6.375584
+pair_coeff 12 12 table KH_A_Table.txt TABLE_12_12
+pair_coeff 12 12 lj/cut 2 -0.055629 5.68 17.04
+pair_coeff 12 13 lj/cut/coul/debye 0.069772 5.62 6.308237 0.0
+pair_coeff 12 13 lj/cut 1 0.069772 5.62 6.308237
+pair_coeff 12 13 table KH_A_Table.txt TABLE_12_13
+pair_coeff 12 13 lj/cut 2 -0.069772 5.62 16.86
+pair_coeff 12 14 lj/cut/coul/debye 0.052801 5.85 6.566403 0.0
+pair_coeff 12 14 lj/cut 1 0.052801 5.85 6.566403
+pair_coeff 12 14 table KH_A_Table.txt TABLE_12_14
+pair_coeff 12 14 lj/cut 2 -0.052801 5.85 17.55
+pair_coeff 12 15 lj/cut/coul/debye 0.059401 6.12 6.869468 0.0
+pair_coeff 12 15 lj/cut 1 0.059401 6.12 6.869468
+pair_coeff 12 15 table KH_A_Table.txt TABLE_12_15
+pair_coeff 12 15 lj/cut 2 -0.059401 6.12 18.36
+pair_coeff 12 16 lj/cut/coul/debye 0.065058 5.43 6.094969 0.0
+pair_coeff 12 16 lj/cut 1 0.065058 5.43 6.094969
+pair_coeff 12 16 table KH_A_Table.txt TABLE_12_16
+pair_coeff 12 16 lj/cut 2 -0.065058 5.43 16.29
+pair_coeff 12 17 lj/cut/coul/debye 0.036772 5.65 6.341911 0.0
+pair_coeff 12 17 lj/cut 1 0.036772 5.65 6.341911
+pair_coeff 12 17 table KH_A_Table.txt TABLE_12_17
+pair_coeff 12 17 lj/cut 2 -0.036772 5.65 16.95
+pair_coeff 12 18 lj/cut/coul/debye 0.052801 5.77 17.31 0.0
+pair_coeff 12 19 lj/cut/coul/debye 0.07543 6.23 18.69 0.0
+pair_coeff 12 20 lj/cut/coul/debye 0.046201 6.07 18.21 0.0
+pair_coeff 13 13 lj/cut/coul/debye 0.049029 5.56 6.240889 0.0
+pair_coeff 13 13 lj/cut 1 0.049029 5.56 6.240889
+pair_coeff 13 13 table KH_A_Table.txt TABLE_13_13
+pair_coeff 13 13 lj/cut 2 -0.049029 5.56 16.68
+pair_coeff 13 14 lj/cut/coul/debye 0.050915 5.79 6.499055 0.0
+pair_coeff 13 14 lj/cut 1 0.050915 5.79 6.499055
+pair_coeff 13 14 table KH_A_Table.txt TABLE_13_14
+pair_coeff 13 14 lj/cut 2 -0.050915 5.79 17.37
+pair_coeff 13 15 lj/cut/coul/debye 0.053744 6.06 6.80212 0.0
+pair_coeff 13 15 lj/cut 1 0.053744 6.06 6.80212
+pair_coeff 13 15 table KH_A_Table.txt TABLE_13_15
+pair_coeff 13 15 lj/cut 2 -0.053744 6.06 18.18
+pair_coeff 13 16 lj/cut/coul/debye 0.066001 5.37 6.027621 0.0
+pair_coeff 13 16 lj/cut 1 0.066001 5.37 6.027621
+pair_coeff 13 16 table KH_A_Table.txt TABLE_13_16
+pair_coeff 13 16 lj/cut 2 -0.066001 5.37 16.11
+pair_coeff 13 17 lj/cut/coul/debye 0.034886 5.59 6.274563 0.0
+pair_coeff 13 17 lj/cut 1 0.034886 5.59 6.274563
+pair_coeff 13 17 table KH_A_Table.txt TABLE_13_17
+pair_coeff 13 17 lj/cut 2 -0.034886 5.59 16.77
+pair_coeff 13 18 lj/cut/coul/debye 0.099001 5.71 17.13 0.0
+pair_coeff 13 19 lj/cut/coul/debye 0.137659 6.17 18.51 0.0
+pair_coeff 13 20 lj/cut/coul/debye 0.086744 6.01 18.03 0.0
+pair_coeff 14 14 lj/cut/coul/debye 0.06883 6.02 6.757222 0.0
+pair_coeff 14 14 lj/cut 1 0.06883 6.02 6.757222
+pair_coeff 14 14 table KH_A_Table.txt TABLE_14_14
+pair_coeff 14 14 lj/cut 2 -0.06883 6.02 18.06
+pair_coeff 14 15 lj/cut/coul/debye 0.044315 6.29 7.060286 0.0
+pair_coeff 14 15 lj/cut 1 0.044315 6.29 7.060286
+pair_coeff 14 15 table KH_A_Table.txt TABLE_14_15
+pair_coeff 14 15 lj/cut 2 -0.044315 6.29 18.87
+pair_coeff 14 16 lj/cut/coul/debye 0.073544 5.6 6.285787 0.0
+pair_coeff 14 16 lj/cut 1 0.073544 5.6 6.285787
+pair_coeff 14 16 table KH_A_Table.txt TABLE_14_16
+pair_coeff 14 16 lj/cut 2 -0.073544 5.6 16.8
+pair_coeff 14 17 lj/cut/coul/debye 0.034886 5.82 6.532729 0.0
+pair_coeff 14 17 lj/cut 1 0.034886 5.82 6.532729
+pair_coeff 14 17 table KH_A_Table.txt TABLE_14_17
+pair_coeff 14 17 lj/cut 2 -0.034886 5.82 17.46
+pair_coeff 14 18 lj/cut/coul/debye 0.07543 5.94 17.82 0.0
+pair_coeff 14 19 lj/cut/coul/debye 0.079201 6.4 19.2 0.0
+pair_coeff 14 20 lj/cut/coul/debye 0.066001 6.24 18.72 0.0
+pair_coeff 15 15 lj/cut/coul/debye 0.067887 6.56 7.363351 35.0
+pair_coeff 15 15 lj/cut 1 0.067887 6.56 7.363351
+pair_coeff 15 15 table KH_A_Table.txt TABLE_15_15
+pair_coeff 15 15 lj/cut 2 -0.067887 6.56 19.68
+pair_coeff 15 16 lj/cut/coul/debye 0.061287 5.87 6.588852 35.0
+pair_coeff 15 16 lj/cut 1 0.061287 5.87 6.588852
+pair_coeff 15 16 table KH_A_Table.txt TABLE_15_16
+pair_coeff 15 16 lj/cut 2 -0.061287 5.87 17.61
+pair_coeff 15 17 lj/cut/coul/debye 0.034886 6.09 6.835794 35.0
+pair_coeff 15 17 lj/cut 1 0.034886 6.09 6.835794
+pair_coeff 15 17 table KH_A_Table.txt TABLE_15_17
+pair_coeff 15 17 lj/cut 2 -0.034886 6.09 18.27
+pair_coeff 15 18 lj/cut/coul/debye 0.07543 6.21 18.63 35.0
+pair_coeff 15 19 lj/cut/coul/debye 0.107487 6.67 20.01 35.0
+pair_coeff 15 20 lj/cut/coul/debye 0.083915 6.51 19.53 35.0
+pair_coeff 16 16 lj/cut/coul/debye 0.056572 5.18 5.814353 0.0
+pair_coeff 16 16 lj/cut 1 0.056572 5.18 5.814353
+pair_coeff 16 16 table KH_A_Table.txt TABLE_16_16
+pair_coeff 16 16 lj/cut 2 -0.056572 5.18 15.54
+pair_coeff 16 17 lj/cut/coul/debye 0.029229 5.4 6.061295 0.0
+pair_coeff 16 17 lj/cut 1 0.029229 5.4 6.061295
+pair_coeff 16 17 table KH_A_Table.txt TABLE_16_17
+pair_coeff 16 17 lj/cut 2 -0.029229 5.4 16.2
+pair_coeff 16 18 lj/cut/coul/debye 0.073544 5.52 16.56 0.0
+pair_coeff 16 19 lj/cut/coul/debye 0.067887 5.98 17.94 0.0
+pair_coeff 16 20 lj/cut/coul/debye 0.048086 5.82 17.46 0.0
+pair_coeff 17 17 lj/cut/coul/debye 0.014143 5.62 6.308237 0.0
+pair_coeff 17 17 lj/cut 1 0.014143 5.62 6.308237
+pair_coeff 17 17 table KH_A_Table.txt TABLE_17_17
+pair_coeff 17 17 lj/cut 2 -0.014143 5.62 16.86
+pair_coeff 17 18 lj/cut/coul/debye 0.112202 5.74 17.22 0.0
+pair_coeff 17 19 lj/cut/coul/debye 0.089573 6.2 18.6 0.0
+pair_coeff 17 20 lj/cut/coul/debye 0.069772 6.04 18.12 0.0
+pair_coeff 18 18 lj/cut/coul/debye 0.306433 5.86 17.58 0.0
+pair_coeff 18 19 lj/cut/coul/debye 0.274375 6.32 18.96 0.0
+pair_coeff 18 20 lj/cut/coul/debye 0.221574 6.16 18.48 0.0
+pair_coeff 19 19 lj/cut/coul/debye 0.263061 6.78 20.34 0.0
+pair_coeff 19 20 lj/cut/coul/debye 0.225346 6.62 19.86 0.0
+pair_coeff 20 20 lj/cut/coul/debye 0.179145 6.46 19.38 0.0
