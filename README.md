@@ -1,5 +1,5 @@
 # Kim & Hummer Model A (KH A)[1] LAMMPS Implementation
-This project is an example of implementing continuous piecewise Lennard-Jones-like potentials in Lammps, such as KH A and HPS. 
+This project is an example of implementing continuous piecewise Lennard-Jones-like potentials in Lammps, such as KH A. 
 Instead of writing a custom pair_style, only standard pair_styles are used. 
 The primary downside of this method is that redundant pair_styles are required which lead to unnecessary inefficiency. 
 However, this method can be used quickly and easily on most versions of LAMMPS without the need for being recompiled.
