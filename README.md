@@ -1,4 +1,4 @@
-# Kim & Hummer Model A (KH A)[1] & Hydrophobicity Scale Model (HPS)[2] LAMMPS Implementation
+# Kim & Hummer Model A (KH A)[1] LAMMPS Implementation
 This project is an example of implementing continuous piecewise Lennard-Jones-like potentials in Lammps, such as KH A and HPS. 
 Instead of writing a custom pair_style, only standard pair_styles are used. 
 The primary downside of this method is that redundant pair_styles are required which lead to unnecessary inefficiency. 
@@ -30,7 +30,7 @@ Valine|V|VAL|0|5.86|0.892|18|99.07
 Tryptophan|W|TRP|0|6.78|0.946|19|186.2
 Tyrosine|Y|TYR|0|6.46|0.865|20|163.2
 
-Miyazawa-Jernigan contact potential between residues i & j in RT[3]:
+Miyazawa-Jernigan contact potential between residues i & j in RT[2]:
 
 0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
@@ -56,5 +56,4 @@ Miyazawa-Jernigan contact potential between residues i & j in RT[3]:
 20|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |-4.17
 
 1. Kim YC, Hummer G. (2008). Coarse-grained models for simulation of multiprotein complexes: application to ubiquitin binding. J. Mol. Biol. 375,5 1416-1433. https://doi.org/10.1016/j.jmb.2007.11.063
-2. G.L. Dignon, W. Zheng, Y.C. Kim, R.B. Best, J. Mittal. (2018). Sequence determinants of protein phase behavior from a coarse-grained model. PLoS Comput. Biol. https://doi.org/10.1371/journal.pcbi.1005941
-3. Miyazawa, S., Jernigan, R.L. (1996). Residue–Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading. J. Mol. Biol., 256,3 623-644. https://doi.org/10.1006/jmbi.1996.0114
+2. Miyazawa, S., Jernigan, R.L. (1996). Residue–Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading. J. Mol. Biol., 256,3 623-644. https://doi.org/10.1006/jmbi.1996.0114
