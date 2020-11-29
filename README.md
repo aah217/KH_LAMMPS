@@ -1,9 +1,11 @@
-# Kim & Hummer Model A (KH A)[1] LAMMPS Implementation
-This project is an example of implementing continuous piecewise Lennard-Jones-like potentials in Lammps, such as KH A. 
+# Kim & Hummer (KH) Model [1] LAMMPS Implementation
+This project uses continuous piecewise Lennard-Jones-like potentials to implement the KH Model A in LAMMPS. 
 Instead of writing a custom pair_style, only standard pair_styles are used. 
-The primary downside of this method is that redundant pair_styles are required which lead to unnecessary inefficiency. 
-However, this method can be used quickly and easily on most versions of LAMMPS without the need for being recompiled.
+This method can be thus be used quickly and easily on most versions of LAMMPS, which however may lead to reduction of efficiency compared to compiled custom potentials. 
 That stated, the authors have only tested this method on a limited number of LAMMPS versions and can't guarantee it will work with every version.
+Provided python scripts can be used to initialize simulations from pdb files. 
+
+The code of this project was used in the simulations in [2], which can be used a reference. 
 
 Table of important parameters where listed type is indentifier used in LAMMPS input files:
 
@@ -30,7 +32,7 @@ Valine|V|VAL|0|5.86|18|99.07
 Tryptophan|W|TRP|0|6.78|19|186.2
 Tyrosine|Y|TYR|0|6.46|20|163.2
 
-Miyazawa-Jernigan contact potential between residues i & j in RT[2]:
+Miyazawa-Jernigan contact potential between residues i & j in RT [3]:
 
 0|1|2|3|4|5|6|7|8|9|10|11|12|13|14|15|16|17|18|19|20
 ---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
@@ -56,4 +58,6 @@ Miyazawa-Jernigan contact potential between residues i & j in RT[2]:
 20|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |-4.17
 
 1. Kim YC, Hummer G. (2008). Coarse-grained models for simulation of multiprotein complexes: application to ubiquitin binding. J. Mol. Biol. 375,5 1416-1433. https://doi.org/10.1016/j.jmb.2007.11.063
-2. Miyazawa, S., Jernigan, R.L. (1996). Residue–Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading. J. Mol. Biol., 256,3 623-644. https://doi.org/10.1006/jmbi.1996.0114
+2. H. Smith et al. (2020) Rounding out the understanding of ACD toxicity with the discovery of cyclic forms of actin oligomers. submitted to Int. J. Mol. Sci. 
+3. Miyazawa, S., Jernigan, R.L. (1996). Residue–Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading. J. Mol. Biol., 256,3 623-644. https://doi.org/10.1006/jmbi.1996.0114
+
