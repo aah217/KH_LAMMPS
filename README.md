@@ -9,7 +9,7 @@ The code of this project was used in the simulations in [2], which can be used a
 
 Table of important parameters where listed type is indentifier used in LAMMPS input files:
 
-name|abc|tla|charge|radius|type|mass
+name|abc|tla|charge (e)|radius (Å)|type|mass (g/mole)
 ---|---|---|---|---|---|---
 Alanine|A|ALA|0|5.04|1|71.08
 Cysteine|C|CYS|0|5.48|2|103.1
