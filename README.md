@@ -1,4 +1,4 @@
-# Kim & Hummer (KH) Model [1] LAMMPS Implementation
+# Implementation of Kim & Hummer (KH) Model [1] in LAMMPS 
 This project uses continuous piecewise Lennard-Jones-like potentials to implement the KH Model A in LAMMPS. 
 Instead of writing a custom pair_style, only standard pair_styles are used. 
 This method can be thus be used quickly and easily on most versions of LAMMPS, which however may lead to reduction of efficiency compared to compiled custom potentials. 
