@@ -1,7 +1,7 @@
 # Implementation of Kim & Hummer (KH) Model [1] in LAMMPS 
 This project uses continuous piecewise Lennard-Jones-like potentials to implement the KH Model A in LAMMPS. 
 Instead of writing a custom pair_style, only standard pair_styles are used. 
-This method can be thus be used quickly and easily on most versions of LAMMPS, which however may lead to reduction of efficiency compared to compiled custom potentials. 
+This method can thus be used quickly and easily on most versions of LAMMPS, which however may lead to reduction of efficiency compared to compiled custom potentials. 
 That stated, the authors have only tested this method on a limited number of LAMMPS versions and can't guarantee it will work with every version.
 Provided python scripts can be used to initialize simulations from pdb files. 
 
@@ -58,6 +58,6 @@ Miyazawa-Jernigan contact potential between residues i & j in RT [3]:
 20|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |-4.17
 
 1. Kim YC, Hummer G. (2008). Coarse-grained models for simulation of multiprotein complexes: application to ubiquitin binding. J. Mol. Biol. 375,5 1416-1433. https://doi.org/10.1016/j.jmb.2007.11.063
-2. H. Smith et al. (2020) Rounding out the understanding of ACD toxicity with the discovery of cyclic forms of actin oligomers. submitted to Int. J. Mol. Sci. 
+2. H. Smith, N. Pinkerton, D. B. Heisler, E. Kudryashova, A. R. Hall, K. R. Karch, A. Norris, V. Wysocki, M. Sotomayor, E. Reisler, D. Vavylonis, D. S. Kudryashov (2021) Rounding out the understanding of ACD toxicity with the discovery of cyclic forms of actin oligomers. Int. J. Mol. Sci. 22, 718; https://doi.org/10.3390/ijms22020718
 3. Miyazawa, S., Jernigan, R.L. (1996). Residue–Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading. J. Mol. Biol., 256,3 623-644. https://doi.org/10.1006/jmbi.1996.0114
 
