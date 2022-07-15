@@ -19,3 +19,6 @@ Threonine,T,THR,0,5.62,17,101.1
 Valine,V,VAL,0,5.86,18,99.07
 Tryptophan,W,TRP,0,6.78,19,186.2
 Tyrosine,Y,TYR,0,6.46,20,163.2
+Phosphoserine,J,SEP,-2,6.36,21,165.03
+Phosphothreonine,O,THP,-2,6.62,22,179.05
+Phosphotyrosine,U,TYP,-2,7.38,23,241.15
