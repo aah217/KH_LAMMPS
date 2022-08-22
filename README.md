@@ -1,11 +1,14 @@
 # Implementation of Kim & Hummer (KH) Model [1] in LAMMPS 
-This project uses continuous piecewise Lennard-Jones-like potentials to implement the KH Model A in LAMMPS. 
+This project uses continuous piecewise Lennard-Jones-like potentials to implement the KH Model A & D in LAMMPS. 
 Instead of writing a custom pair_style, only standard pair_styles are used. 
 This method can thus be used quickly and easily on most versions of LAMMPS, which however may lead to reduction of efficiency compared to compiled custom potentials. 
 That stated, the authors have only tested this method on a limited number of LAMMPS versions and can't guarantee it will work with every version.
-Provided python scripts can be used to initialize simulations from pdb files. 
+Provided python scripts can be used to initialize simulations from pdb files.
+KH Model D includes three additional bead definitions for phosphoserine, phosphothreonine, and phosphotyrosine which are utilized in a pending publication.
+For non-bonded pairwise interactions these beads are treated as aspartic acid but with charge, mass, and radii updated to match those calculated for the hydrophobicity scale model as described in [4].
 
 The code of this project was used in the simulations in [2], which can be used a reference. 
+We have implemented the Hydrophobicity Scale [4][5] Model using similar methods which can be found here: https://github.com/aah217/HPS_LAMMPS
 
 Table of important parameters where listed type is indentifier used in LAMMPS input files:
 
@@ -31,6 +34,9 @@ Threonine|T|THR|0|5.62|17|101.1
 Valine|V|VAL|0|5.86|18|99.07
 Tryptophan|W|TRP|0|6.78|19|186.2
 Tyrosine|Y|TYR|0|6.46|20|163.2
+Phosphoserine|J|SEP|-2|6.36|21|165.03
+Phosphothreonin|O|THP|-2|6.62|22|179.05
+Phosphotyrosine|U|THY|-2|7.38|23|241.15
 
 Miyazawa-Jernigan contact potential between residues i & j in RT [3]:
 
@@ -57,7 +63,10 @@ Miyazawa-Jernigan contact potential between residues i & j in RT [3]:
 19|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |-5.06|-4.66 
 20|     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |     |-4.17
 
-1. Kim YC, Hummer G. (2008). Coarse-grained models for simulation of multiprotein complexes: application to ubiquitin binding. J. Mol. Biol. 375,5 1416-1433. https://doi.org/10.1016/j.jmb.2007.11.063
-2. H. Smith, N. Pinkerton, D. B. Heisler, E. Kudryashova, A. R. Hall, K. R. Karch, A. Norris, V. Wysocki, M. Sotomayor, E. Reisler, D. Vavylonis, D. S. Kudryashov (2021) Rounding out the understanding of ACD toxicity with the discovery of cyclic forms of actin oligomers. Int. J. Mol. Sci. 22, 718; https://doi.org/10.3390/ijms22020718
-3. Miyazawa, S., Jernigan, R.L. (1996). Residue–Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading. J. Mol. Biol., 256,3 623-644. https://doi.org/10.1006/jmbi.1996.0114
+1. Y.C. Kim, G. Hummer (2008) Coarse-grained models for simulation of multiprotein complexes: application to ubiquitin binding. J. Mol. Biol. 375,5 1416-1433. https://doi.org/10.1016/j.jmb.2007.11.063
+2. H. Smith, N. Pinkerton, D. B. Heisler, E. Kudryashova, A. R. Hall, K. R. Karch, A. Norris, V. Wysocki, M. Sotomayor, E. Reisler, D. Vavylonis, D. S. Kudryashov (2021) Rounding out the understanding of ACD toxicity with the discovery of cyclic forms of actin oligomers. Int. J. Mol. Sci. 22,718. https://doi.org/10.3390/ijms22020718
+3. S. Miyazawa, R.L. Jernigan (1996) Residue–Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading. J. Mol. Biol. 256,3 623-644. https://doi.org/10.1006/jmbi.1996.0114
+4. T.M. Perdikari, N. Jovic, G. L. Dignon, Y.C. Kim, N.L. Fawzi, J. Mittal (2021) A predictive coarse-grained model for position-specific effects of post-translational modifications. Biophys. J. 120,7 1187-1197. https://doi.org/10.1016/j.bpj.2021.01.034
+5. G.L. Dignon, W. Zheng, Y.C. Kim, R.B. Best, J. Mittal (2018) Sequence determinants of protein phase behavior from a coarse-grained model. PLOS Computational Biology 14(1): e1005941. https://doi.org/10.1371/journal.pcbi.1005941
+
 
