@@ -4,10 +4,10 @@ Instead of writing a custom pair_style, only standard pair_styles are used.
 This method can thus be used quickly and easily on most versions of LAMMPS, which however may lead to reduction of efficiency compared to compiled custom potentials. 
 That stated, the authors have only tested this method on a limited number of LAMMPS versions and can't guarantee it will work with every version.
 Provided python scripts can be used to initialize simulations from pdb files.
-KH Model D includes three additional bead definitions for phosphoserine, phosphothreonine, and phosphotyrosine which are utilized in a pending publication.
+KH Model D includes three additional bead definitions for phosphoserine, phosphothreonine, and phosphotyrosine.
 For non-bonded pairwise interactions these beads are treated as aspartic acid but with charge, mass, and radii updated to match those calculated for the hydrophobicity scale model as described in [4].
 
-The code of this project was used in the simulations in [2], which can be used a reference. 
+The code of this project was used in the simulations in [2] & [6], which can be used a reference. 
 We have implemented the Hydrophobicity Scale [4][5] Model using similar methods which can be found here: https://github.com/aah217/HPS_LAMMPS
 
 Table of important parameters where listed type is indentifier used in LAMMPS input files:
@@ -68,5 +68,4 @@ Miyazawa-Jernigan contact potential between residues i & j in RT [3]:
 3. S. Miyazawa, R.L. Jernigan (1996) Residue–Residue Potentials with a Favorable Contact Pair Term and an Unfavorable High Packing Density Term, for Simulation and Threading. J. Mol. Biol. 256,3 623-644. https://doi.org/10.1006/jmbi.1996.0114
 4. T.M. Perdikari, N. Jovic, G. L. Dignon, Y.C. Kim, N.L. Fawzi, J. Mittal (2021) A predictive coarse-grained model for position-specific effects of post-translational modifications. Biophys. J. 120,7 1187-1197. https://doi.org/10.1016/j.bpj.2021.01.034
 5. G.L. Dignon, W. Zheng, Y.C. Kim, R.B. Best, J. Mittal (2018) Sequence determinants of protein phase behavior from a coarse-grained model. PLOS Computational Biology 14(1): e1005941. https://doi.org/10.1371/journal.pcbi.1005941
-
-
+6. R. Bhattacharjee, A. R. Hall, M. C. Mangione, M. G. Igarashi, R. H. Roberts-Galbraith, J. Chen, D. Vavylonis, K. L. Gould (2022) Multiple polarity kinases inhibit phase separation of F-BAR protein Cdc15 and antagonize cytokinetic ring assembly in fission yeast. bioRxiv. https://doi.org/10.1101/2022.08.26.505417
